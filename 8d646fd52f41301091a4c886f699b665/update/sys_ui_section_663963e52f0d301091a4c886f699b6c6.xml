@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="업무량관리" section_id="663963e52f0d301091a4c886f699b6c6" sys_domain="global" table="x_537923_innovate_innovate" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_3</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:37</sys_created_on>
+            <sys_id>db39a3e52f0d301091a4c886f699b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="업무량관리" display_value="업무량관리" name="x_537923_innovate_innovate" sys_domain="global" view="Default view">663963e52f0d301091a4c886f699b6c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_2</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:37</sys_created_on>
+            <sys_id>5339a3e52f0d301091a4c886f699b67d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="업무량관리" display_value="업무량관리" name="x_537923_innovate_innovate" sys_domain="global" view="Default view">663963e52f0d301091a4c886f699b6c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:37</sys_created_on>
+            <sys_id>d739a3e52f0d301091a4c886f699b67d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="업무량관리" display_value="업무량관리" name="x_537923_innovate_innovate" sys_domain="global" view="Default view">663963e52f0d301091a4c886f699b6c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:37</sys_created_on>
+            <sys_id>5f39a3e52f0d301091a4c886f699b67d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="업무량관리" display_value="업무량관리" name="x_537923_innovate_innovate" sys_domain="global" view="Default view">663963e52f0d301091a4c886f699b6c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:37</sys_created_on>
+            <sys_id>d339a3e52f0d301091a4c886f699b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="업무량관리" display_value="업무량관리" name="x_537923_innovate_innovate" sys_domain="global" view="Default view">663963e52f0d301091a4c886f699b6c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_integer_6</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:37</sys_created_on>
+            <sys_id>5b39a3e52f0d301091a4c886f699b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="업무량관리" display_value="업무량관리" name="x_537923_innovate_innovate" sys_domain="global" view="Default view">663963e52f0d301091a4c886f699b6c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>업무량관리</caption>
+            <header>false</header>
+            <name>x_537923_innovate_innovate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:24:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663963e52f0d301091a4c886f699b6c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_537923_innovate_innovate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+            <sys_update_name>sys_ui_section_663963e52f0d301091a4c886f699b6c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:24:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
