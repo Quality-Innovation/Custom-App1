@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+        <element label="Idea implemented" max_length="40" name="idea_implemented" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cost_savings" label="Idea type" max_length="40" name="idea_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cost Savings" value="cost_savings"/>
+                <element inactive_on_update="false" label="Process Improvement" value="process_improvement"/>
+                <element inactive_on_update="false" label="Team Building" value="team_building"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="125" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="서비스유형" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="운영관리" sequence="0" value="운영관리"/>
+                <element inactive_on_update="false" label="장애관리" sequence="1" value="장애관리"/>
+                <element inactive_on_update="false" label="개선관리" sequence="2" value="개선관리"/>
+                <element inactive_on_update="false" label="지원관리" sequence="3" value="지원관리"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="내가 지원한 고객회사" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="(주)두산" sequence="0" value="(주)두산"/>
+                <element inactive_on_update="false" label="두산중공업" sequence="1" value="두산중공업"/>
+                <element inactive_on_update="false" label="두산인프라코어" sequence="2" value="두산인프라코어"/>
+                <element inactive_on_update="false" label="두산건설" sequence="3" value="두산건설"/>
+                <element inactive_on_update="false" label="두산전자" sequence="4" value="두산전자"/>
+                <element inactive_on_update="false" label="DDI" sequence="5" value="ddi"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="작업일자" mandatory="true" max_length="40" name="u_glide_date_3" type="glide_date"/>
+        <element label="작업시간" mandatory="true" max_length="40" name="u_integer_6" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="서비스 or 시스템" max_length="40" name="u_string_4" type="string"/>
+    </element>
+</database>
