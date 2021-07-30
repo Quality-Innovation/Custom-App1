@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display service category that match the Idea type value.</description>
+        <field>idea_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Innovate Idea Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	alert(newValue);
+	
+	var service_category = g_form.getValue('u_choice_1');
+	g_form.clearOptions('u_choice_1');
+	
+	if (newValue == 'team_building'){
+		g_form.addOption('u_choice_1','Selection 1','Ice Braking');
+		g_form.addOption('u_choice_1','Selection 2','Seminar');
+		g_form.addOption('u_choice_1','Selection 3','Workshop');
+		g_form.addOption('u_choice_1','Selection 4','Membership training');
+	}
+	
+	if (newValue == 'cost_savings'){
+		g_form.addOption('u_choice_1','Selection 1','Cost Saving1');
+		g_form.addOption('u_choice_1','Selection 2','Cost Saving2');
+		g_form.addOption('u_choice_1','Selection 3','Cost Saving3');
+		g_form.addOption('u_choice_1','Selection 4','Cost Saving4');
+	}
+		
+	if (isLoading && !g_form.isNewRecord()){
+		g_form.setValue('u_choice_1', service_category );
+	}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-09 10:02:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>595573a02fd1301091a4c886f699b6f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Innovate Idea Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_update_name>sys_script_client_595573a02fd1301091a4c886f699b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-09 10:06:54</sys_updated_on>
+        <table>x_537923_innovate_innovate</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

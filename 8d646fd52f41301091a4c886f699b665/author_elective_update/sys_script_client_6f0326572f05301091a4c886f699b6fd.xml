@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>idea_type</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Innovate Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for loading the form. When you close this alert you will be able to interact with form.");
+}
+
+function onSubmit() {
+	//Generate an alert to thank the user for submitting a record
+	alert("Thank you for submitting a record");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 06:53:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f0326572f05301091a4c886f699b6fd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Innovate Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_update_name>sys_script_client_6f0326572f05301091a4c886f699b6fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 07:06:47</sys_updated_on>
+        <table>x_537923_innovate_innovate</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">8d646fd52f41301091a4c886f699b665</application>
+        <file_path/>
+        <instance_id>584248ccdbb9dbc06578f22ebf961901</instance_id>
+        <instance_name>dev57316</instance_name>
+        <name>sys_script_client_6f0326572f05301091a4c886f699b6fd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;idea_type&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Innovate Set Requested for&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for loading the form. When you close this alert you will be able to interact with form.");
+}
+
+function onSubmit() {
+	//Generate an alert to thank the user for submitting a record
+	alert("Thank you for submitting a record");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-05 06:53:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6f0326572f05301091a4c886f699b6fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Innovate Set Requested for&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Innovate" source="x_537923_innovate"&gt;8d646fd52f41301091a4c886f699b665&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Innovate"&gt;8d646fd52f41301091a4c886f699b665&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6f0326572f05301091a4c886f699b6fd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-05 07:06:47&lt;/sys_updated_on&gt;&lt;table&gt;x_537923_innovate_innovate&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>139474955</payload_hash>
+        <record_name>Innovate Set Requested for</record_name>
+        <reverted_from/>
+        <source>eded42972fc1301091a4c886f699b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 07:06:47</sys_created_on>
+        <sys_id>8487621b2f05301091a4c886f699b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a757da8b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 07:06:47</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cc87621baa053010b4f7ac68e4bb672c</update_guid>
+        <update_guid_history>cc87621baa053010b4f7ac68e4bb672c:139474955,f857621b3d0530104761a258614b4028:1941779965,ef36aa9792053010b3c66faff16ce7f4:2032011788,027426974c053010bca706dd6cd7b235:632923721</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 07:07:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1d33715969ec45208e7ae72b8bf58900</sys_id>
+        <sys_metadata>6f0326572f05301091a4c886f699b6fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Innovate Set Requested for</sys_name>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_parent display_value="Innovate">4666e3992f41301091a4c886f699b651</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_scope_delete display_value="">6d4b1ed7afb2475c9590a018bae36e64</sys_scope_delete>
+        <sys_update_name>sys_script_client_6f0326572f05301091a4c886f699b6fd</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6f0326572f05301091a4c886f699b6fd">8487621b2f05301091a4c886f699b62d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-05 07:07:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
