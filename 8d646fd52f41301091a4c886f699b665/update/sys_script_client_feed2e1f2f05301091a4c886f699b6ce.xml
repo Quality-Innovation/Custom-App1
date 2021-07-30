@@ -13,6 +13,21 @@
         <script><![CDATA[function onLoad() {
 	//Generate an alert for thanks
 	alert("Thank you for loading this form. When you close this alert you will be able to interact this form.");
+	
+	var myVar = 3;
+	jslog("David: This message is from jlog().");
+	jslog("David: The value of myVar = " + myVar);
+	jslog("David: The Number value = " + g_form.getValue('number'));
+	jslog("David: The first name of the currently logged user is " + g_user.firstName + ".");
+	
+	//Using Try/Catch to trap runtime errors.
+	//The helloWorld() fumction does not exist.
+	try{
+		helloWorld();
+	}
+	catch(err){
+		jslog('A JavaScript runtime error occured: ' + err.message);
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -20,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>feed2e1f2f05301091a4c886f699b6ce</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Innovate onLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
@@ -28,10 +43,10 @@
         <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
         <sys_update_name>sys_script_client_feed2e1f2f05301091a4c886f699b6ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-05 08:14:23</sys_updated_on>
+        <sys_updated_on>2021-07-09 10:33:50</sys_updated_on>
         <table>x_537923_innovate_innovate</table>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="5" type="collection">
+    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="16" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
         <element label="Idea implemented" max_length="40" name="idea_implemented" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="cost_savings" label="Idea type" max_length="40" name="idea_type" type="choice">
@@ -31,6 +31,11 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="작업일자" mandatory="true" max_length="40" name="u_glide_date_3" type="glide_date"/>
         <element label="작업시간" mandatory="true" max_length="40" name="u_integer_6" type="integer"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="서비스 or 시스템" max_length="40" name="u_string_4" type="string"/>
+        <index name="index">
+            <element name="u_requested_for"/>
+        </index>
     </element>
 </database>
