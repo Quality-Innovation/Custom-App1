@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="16" type="collection">
+    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="19" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
         <element label="Idea implemented" max_length="40" name="idea_implemented" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="cost_savings" label="Idea type" max_length="40" name="idea_type" type="choice">
