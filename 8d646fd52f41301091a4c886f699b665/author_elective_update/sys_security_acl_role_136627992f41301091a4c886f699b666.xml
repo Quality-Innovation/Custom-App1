@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 06:33:52</sys_created_on>
+        <sys_id>136627992f41301091a4c886f699b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_537923_innovate_innovate.x_537923_innovate.employee</sys_name>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_security_acl display_value="x_537923_innovate_innovate">5b666b192f41301091a4c886f699b66c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_136627992f41301091a4c886f699b666</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 06:33:52</sys_updated_on>
+        <sys_user_role display_value="x_537923_innovate.employee" name="x_537923_innovate.employee">75c46fd52f41301091a4c886f699b6c7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">8d646fd52f41301091a4c886f699b665</application>
+        <file_path/>
+        <instance_id>584248ccdbb9dbc06578f22ebf961901</instance_id>
+        <instance_name>dev57316</instance_name>
+        <name>sys_security_acl_role_136627992f41301091a4c886f699b666</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-29 06:33:52</sys_created_on><sys_id>136627992f41301091a4c886f699b666</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_537923_innovate_innovate.x_537923_innovate.employee</sys_name><sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package><sys_policy/><sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope><sys_security_acl display_value="x_537923_innovate_innovate">5b666b192f41301091a4c886f699b66c</sys_security_acl><sys_update_name>sys_security_acl_role_136627992f41301091a4c886f699b666</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-29 06:33:52</sys_updated_on><sys_user_role display_value="x_537923_innovate.employee" name="x_537923_innovate.employee">75c46fd52f41301091a4c886f699b6c7</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>994006796</payload_hash>
+        <record_name>x_537923_innovate_innovate.x_537923_innovate.employee</record_name>
+        <reverted_from/>
+        <source>01646fd52f41301091a4c886f699b668</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 06:33:52</sys_created_on>
+        <sys_id>6b6627992f41301091a4c886f699b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a56795d110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 06:33:52</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a3662799ee4130100a2834b76e7bcd68</update_guid>
+        <update_guid_history>a3662799ee4130100a2834b76e7bcd68:994006796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_537923_innovate_innovate.x_537923_innovate.employee">ac11d08f2f35301091a4c886f699b65a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 08:18:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3436510222a24ab0a39b13dc17587810</sys_id>
+        <sys_metadata>136627992f41301091a4c886f699b666</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_537923_innovate_innovate.x_537923_innovate.employee</sys_name>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_parent display_value="x_537923_innovate_innovate">5b666b192f41301091a4c886f699b66c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_scope_delete display_value="">6d4b1ed7afb2475c9590a018bae36e64</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_136627992f41301091a4c886f699b666</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_136627992f41301091a4c886f699b666">6b6627992f41301091a4c886f699b668</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 08:18:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

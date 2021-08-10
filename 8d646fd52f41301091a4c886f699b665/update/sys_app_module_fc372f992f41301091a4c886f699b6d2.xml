@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_537923_innovate.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-29 06:37:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc372f992f41301091a4c886f699b6d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
         <sys_update_name>sys_app_module_fc372f992f41301091a4c886f699b6d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-29 06:37:14</sys_updated_on>
+        <sys_updated_on>2021-08-09 08:51:50</sys_updated_on>
         <timeline_page/>
         <title>All</title>
         <uncancelable>false</uncancelable>
