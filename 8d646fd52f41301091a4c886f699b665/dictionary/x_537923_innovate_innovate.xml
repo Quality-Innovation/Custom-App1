@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="21" type="collection">
+    <element attributes="hasLabels=true" label="Innovate" max_length="40" name="x_537923_innovate_innovate" sizeclass="26" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
         <element label="Idea implemented" max_length="40" name="idea_implemented" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="cost_savings" label="Idea type" max_length="40" name="idea_type" type="choice">
@@ -7,12 +7,24 @@
                 <element inactive_on_update="false" label="Cost Savings" value="cost_savings"/>
                 <element inactive_on_update="false" label="Process Improvement" value="process_improvement"/>
                 <element inactive_on_update="false" label="Team Building" value="team_building"/>
+                <element inactive_on_update="false" label="Cost avings" sequence="0" value="Cost avings"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short description" max_length="125" name="short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="서비스유형" mandatory="true" max_length="40" name="u_choice_1" type="string">
             <choice>
+                <element inactive_on_update="false" label="Àå¾Ö°ü¸®" sequence="0" value="Àå¾Ö°ü¸®"/>
+                <element inactive_on_update="false" label="Áö¿ø°ü¸®" sequence="0" value="Áö¿ø°ü¸®"/>
+                <element inactive_on_update="false" label="Cost Saving1" sequence="0" value="Cost Saving1"/>
+                <element inactive_on_update="false" label="Cost Saving2" sequence="0" value="Cost Saving2"/>
+                <element inactive_on_update="false" label="Cost Saving3" sequence="0" value="Cost Saving3"/>
+                <element inactive_on_update="false" label="Improvement" sequence="0" value="Improvement"/>
+                <element inactive_on_update="false" label="Operation" sequence="0" value="Operation"/>
+                <element inactive_on_update="false" label="Seminar" sequence="0" value="Seminar"/>
+                <element inactive_on_update="false" label="Workshop" sequence="0" value="Workshop"/>
+                <element inactive_on_update="false" label="°³¼±°ü¸®" sequence="0" value="°³¼±°ü¸®"/>
+                <element inactive_on_update="false" label="¿î¿µ°ü¸®" sequence="0" value="¿î¿µ°ü¸®"/>
                 <element inactive_on_update="false" label="운영관리" sequence="0" value="운영관리"/>
                 <element inactive_on_update="false" label="장애관리" sequence="1" value="장애관리"/>
                 <element inactive_on_update="false" label="개선관리" sequence="2" value="개선관리"/>

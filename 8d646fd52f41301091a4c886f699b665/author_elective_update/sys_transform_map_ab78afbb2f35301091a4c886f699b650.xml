@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Import Historic Innovate Data</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_537923_innovate_historic_innovate_data</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 07:56:16</sys_created_on>
+        <sys_id>ab78afbb2f35301091a4c886f699b650</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Historic Innovate Data</sys_name>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_update_name>sys_transform_map_ab78afbb2f35301091a4c886f699b650</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 07:56:16</sys_updated_on>
+        <target_table>x_537923_innovate_innovate</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">8d646fd52f41301091a4c886f699b665</application>
+        <file_path/>
+        <instance_id>584248ccdbb9dbc06578f22ebf961901</instance_id>
+        <instance_name>dev57316</instance_name>
+        <name>sys_transform_map_ab78afbb2f35301091a4c886f699b650</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Import Historic Innovate Data&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_537923_innovate_historic_innovate_data&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-13 07:56:16&lt;/sys_created_on&gt;&lt;sys_id&gt;ab78afbb2f35301091a4c886f699b650&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import Historic Innovate Data&lt;/sys_name&gt;&lt;sys_package display_value="Innovate" source="x_537923_innovate"&gt;8d646fd52f41301091a4c886f699b665&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Innovate"&gt;8d646fd52f41301091a4c886f699b665&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_ab78afbb2f35301091a4c886f699b650&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-13 07:56:16&lt;/sys_updated_on&gt;&lt;target_table&gt;x_537923_innovate_innovate&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-932675108</payload_hash>
+        <record_name>Import Historic Innovate Data</record_name>
+        <reverted_from/>
+        <source>eded42972fc1301091a4c886f699b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 07:56:16</sys_created_on>
+        <sys_id>55d8abfb2f35301091a4c886f699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b3e82fcd80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 07:56:16</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>9dd8abfbf2353010f2c8c993f61ee9d5</update_guid>
+        <update_guid_history>9dd8abfbf2353010f2c8c993f61ee9d5:-932675108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 08:17:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>5b90d03b4a5a44deb488a88794b78421</sys_id>
+        <sys_metadata>ab78afbb2f35301091a4c886f699b650</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Historic Innovate Data</sys_name>
+        <sys_package display_value="Innovate" source="x_537923_innovate">8d646fd52f41301091a4c886f699b665</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8d646fd52f41301091a4c886f699b665</sys_scope>
+        <sys_scope_delete display_value="">6d4b1ed7afb2475c9590a018bae36e64</sys_scope_delete>
+        <sys_update_name>sys_transform_map_ab78afbb2f35301091a4c886f699b650</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_ab78afbb2f35301091a4c886f699b650">55d8abfb2f35301091a4c886f699b6d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 08:17:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
