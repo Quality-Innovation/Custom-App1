@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Historic Innovate Data" max_length="40" name="x_537923_innovate_historic_innovate_data" sizeclass="15" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Idea type" label="Idea type" max_length="40" name="u_idea_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Requested for" label="Requested for" max_length="40" name="u_requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Service type" label="Service type" max_length="40" name="u_service_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Working date" label="Working date" max_length="40" name="u_working_date" type="string"/>
+    </element>
+</database>
